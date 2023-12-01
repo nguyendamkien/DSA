@@ -1,0 +1,3 @@
+Số lượng đồ thị vô hướng khác nhau có V đỉnh và E cạnh (không có cạnh song song):
+Số đồ thị = C(V, E) * V^(V-2)
+Trong đó, C(V, E) là tổ hợp chập E của V.
