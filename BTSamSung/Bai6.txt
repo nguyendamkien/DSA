@@ -1,0 +1,7 @@
+-Bắt đầu từ một đỉnh bất kỳ trong đồ thị và đánh dấu đỉnh đó đã được thăm.
+-Thực hiện DFS trên các đỉnh kề của đỉnh hiện tại theo thứ tự không quan trọng.
+-Khi duyệt qua một cạnh (u, v), nếu đỉnh v đã được thăm trước đó, ta bỏ qua cạnh này (vì nó thuộc vào cây DFS).
+-Nếu đỉnh v chưa được thăm trước đó, đánh dấu nó đã được thăm và tiếp tục thực hiện DFS từ đỉnh v.
+-Sau khi hoàn thành DFS trên tất cả các đỉnh kề của đỉnh hiện tại, ta trở lại đỉnh gốc và tiếp tục tìm kiếm các đỉnh chưa được thăm.
+-Nếu sau khi thực hiện DFS trên tất cả các đỉnh và tất cả các cạnh trong đồ thị đều đã được duyệt qua, đồ thị là liên thông cạnh.
+-Ngược lại, nếu có ít nhất một cạnh chưa được duyệt qua, đồ thị không có tính chất liên thông cạnh.
