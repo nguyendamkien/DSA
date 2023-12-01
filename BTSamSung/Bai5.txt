@@ -1,0 +1,5 @@
+-Giả sử đồ thị G là một đồ thị không có điểm articulation. Chọn một cặp đỉnh s và t trong đồ thị và xem xét đường đi P giữa chúng.
+-Vì không có điểm articulation trong G, không có đỉnh nào trên đường đi P có thể bị xóa để làm cho đồ thị mất tính liên thông. Điều này có nghĩa là mỗi đỉnh trên đường đi P có ít nhất hai cạnh kề.
+-Chúng ta có thể sử dụng dữ kiện trên để xây dựng hai đường đi không giao nhau từ s đến t. Đầu tiên, đi từ s theo đường đi P đến một đỉnh u, sau đó chọn một cạnh bất kỳ từ u và đi đến một đỉnh v nằm ngoài đường đi P. Tiếp theo, chúng ta quay trở lại đường đi P và đi từ v theo đường đi P đến t.
+-Vì mỗi đỉnh trên đường đi P có ít nhất hai cạnh kề và chúng ta đã chọn một đỉnh v nằm ngoài đường đi P, hai đường đi này không giao nhau.
+-Do đó, chúng ta đã chứng minh được rằng một đồ thị không có điểm articulation là đồ thị biconnected.
