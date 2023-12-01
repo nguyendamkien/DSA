@@ -1,0 +1,6 @@
+-Giả sử rằng một đồ thị G là đồ thị hai mầu, nhưng lại chứa một chu trình độ dài lẻ. 
+-Đầu tiên, giả sử đồ thị G có hai mầu là mầu 1 và mầu 2. Giả sử chu trình độ dài lẻ trong G là (v1, v2, v3, ..., vn, v1), trong đó vi là các đỉnh trên chu trình và n là số đỉnh trên chu trình.
+-Vì G là đồ thị hai mầu, màu của đỉnh v1 phải khác màu của đỉnh v2. Màu của đỉnh v2 cũng phải khác màu của đỉnh v3, và tiếp tục như vậy. Tuy nhiên, màu của đỉnh vn phải khác màu của đỉnh v1, vì chúng là hai đỉnh kề nhau trên chu trình độ dài lẻ.
+-Suy ra, chúng ta có một mâu thuẫn: màu của đỉnh v1 khác màu của đỉnh vn và cũng bằng màu của đỉnh v1 (vì chúng là hai đỉnh kề nhau trên chu trình độ dài lẻ).
+Do đó, giả định ban đầu rằng đồ thị G là đồ thị hai mầu chứa chu trình độ dài lẻ phải là sai.
+=> một đồ thị là đồ thị hai mầu (bipartite) khi và chỉ khi nó không chứa chu trình độ dài lẻ.
