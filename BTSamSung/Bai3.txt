@@ -1,0 +1,4 @@
+-Khởi tạo biến count = 0, đại diện cho số cạnh song song.
+-Duyệt qua từng cạnh trong đồ thị và kiểm tra từng cặp cạnh (u, v) có cùng đỉnh đầu (u) và khác đỉnh cuối (v) hay không.
+-Nếu một cặp cạnh (u, v) có cùng đỉnh đầu (u) và khác đỉnh cuối (v), tăng biến count lên 1.
+-Sau khi duyệt qua tất cả các cạnh, biến count sẽ chứa số cạnh song song trong đồ thị.
